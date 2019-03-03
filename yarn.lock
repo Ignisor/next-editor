@@ -1467,28 +1467,33 @@
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-4.0.3.tgz#b51c87bb86022323f764fbdc976b173f19261cc5"
 
-"@textlint/ast-traverse@^2.0.9":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@textlint/ast-traverse/-/ast-traverse-2.0.9.tgz#4bf427cf01b7195013e75d27540a77ad68c363d9"
-  dependencies:
-    "@textlint/ast-node-types" "^4.0.3"
+"@textlint/ast-node-types@^4.2.1":
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-4.2.1.tgz#978fa10e23468114462fc08ef29f96980c12a8ef"
 
-"@textlint/feature-flag@^3.0.5":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@textlint/feature-flag/-/feature-flag-3.0.5.tgz#3783e0f2661053d2a74fdad775993395a2d530b4"
+"@textlint/ast-traverse@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@textlint/ast-traverse/-/ast-traverse-2.1.2.tgz#05d04ce0623f650e502d590d0624575836ae3afd"
+  dependencies:
+    "@textlint/ast-node-types" "^4.2.1"
+
+"@textlint/feature-flag@^3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@textlint/feature-flag/-/feature-flag-3.1.2.tgz#01b21b688e2779e74ac1b7b6e7ab77d93b5ce078"
   dependencies:
     map-like "^2.0.0"
 
-"@textlint/kernel@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@textlint/kernel/-/kernel-3.0.0.tgz#ba10962acff64f17b9e5fce8089a40f1f8880dcd"
+"@textlint/kernel@3.1.4":
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/@textlint/kernel/-/kernel-3.1.4.tgz#a81a0e953d8ee1a8ec047df25bb2f410002e30dc"
   dependencies:
-    "@textlint/ast-node-types" "^4.0.3"
-    "@textlint/ast-traverse" "^2.0.9"
-    "@textlint/feature-flag" "^3.0.5"
+    "@textlint/ast-node-types" "^4.2.1"
+    "@textlint/ast-traverse" "^2.1.2"
+    "@textlint/feature-flag" "^3.1.2"
+    "@textlint/types" "^1.1.3"
     "@types/bluebird" "^3.5.18"
     bluebird "^3.5.1"
-    debug "^2.6.6"
+    debug "^4.1.1"
     deep-equal "^1.0.1"
     map-like "^2.0.0"
     object-assign "^4.1.1"
@@ -1511,6 +1516,13 @@
   resolved "https://registry.yarnpkg.com/@textlint/textlint-plugin-markdown/-/textlint-plugin-markdown-5.0.0.tgz#55c6457655fc98b037ac944bca730e4721401205"
   dependencies:
     "@textlint/markdown-to-ast" "^6.0.9"
+
+"@textlint/types@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@textlint/types/-/types-1.1.3.tgz#fcfe9bd012e01d0b641ff57e9d5776fa5b9759af"
+  dependencies:
+    "@textlint/ast-node-types" "^4.2.1"
+    structured-source "^3.0.2"
 
 "@types/bluebird@^3.5.18":
   version "3.5.24"
@@ -4360,6 +4372,12 @@ debug@3.1.0, debug@^3.1.0, debug@~3.1.0:
 debug@^4.0.0, debug@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.0.1.tgz#f9bb36d439b8d1f0dd52d8fb6b46e4ebb8c1cd5b"
+  dependencies:
+    ms "^2.1.1"
+
+debug@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
   dependencies:
     ms "^2.1.1"
 
