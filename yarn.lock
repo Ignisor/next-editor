@@ -1269,12 +1269,12 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@blueprintjs/core@3.6.1":
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-3.6.1.tgz#d168423b1c38964e50c2cc8aef4cba8076bfe01a"
+"@blueprintjs/core@3.14.1":
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-3.14.1.tgz#9a0c816bbe6c232d6515361f502506a1fb53acfb"
   dependencies:
-    "@blueprintjs/icons" "^3.0.0"
-    "@types/dom4" "^2.0.0"
+    "@blueprintjs/icons" "^3.6.0"
+    "@types/dom4" "^2.0.1"
     classnames "^2.2"
     dom4 "^2.0.1"
     normalize.css "^8.0.0"
@@ -1284,9 +1284,9 @@
     resize-observer-polyfill "^1.5.0"
     tslib "^1.9.0"
 
-"@blueprintjs/icons@^3.0.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-3.1.0.tgz#7bf137bd30eb74a4d35d4e03e736898ef9ab6025"
+"@blueprintjs/icons@^3.6.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-3.6.0.tgz#af1d2de091d67927ed61671e6967c43620cb416d"
   dependencies:
     classnames "^2.2"
     tslib "^1.9.0"
@@ -1520,7 +1520,7 @@
   version "0.22.9"
   resolved "https://registry.yarnpkg.com/@types/cheerio/-/cheerio-0.22.9.tgz#b5990152604c2ada749b7f88cab3476f21f39d7b"
 
-"@types/dom4@^2.0.0":
+"@types/dom4@^2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/dom4/-/dom4-2.0.1.tgz#506d5781b9bcab81bd9a878b198aec7dee2a6033"
 
